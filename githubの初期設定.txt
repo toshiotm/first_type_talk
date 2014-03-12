@@ -1,0 +1,15 @@
+##初回のみ
+git init
+touch README
+vi README
+git commit -m 'first commit'
+git remote add origin git@github.com:toshiotm/リポジトリ名.git
+
+##通常の追加手順
+#ローカルに追加
+git add .
+#ローカルにコミット
+git commit -m 'コメント'
+#masterにpush
+git push -u origin master
+
